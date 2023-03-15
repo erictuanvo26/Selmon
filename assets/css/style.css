@@ -54,12 +54,12 @@ body {
     height: 40px;
 }
 
-.col {
+.flxdir-col {
     display: flex;
     flex-direction: column;
 }
 
-.row {
+.flxdir-row {
     display: flex;
     flex-direction: row;
 }
