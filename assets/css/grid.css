@@ -1,3 +1,13 @@
+/* 
+Colum: .col
+Prefix class:
+ - c - mobile
+ - m - tablet
+ - l - pc 
+ */
+
+
+
 .grid {
     width: 100%;
     display: block;
@@ -5,7 +15,7 @@
 }
 
 .grid.wide {
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -140,7 +150,7 @@
 }
 
 /* >= Tablet */
-@media (min-width: 740px) {
+@media (min-width: 768px) {
     .row {
         margin-left: -8px;
         margin-right: -8px;
@@ -276,7 +286,7 @@
 }
 
 /* PC medium resolution > */
-@media (min-width: 1113px) {
+@media (min-width: 1025px) {
     .row {
         margin-left: -12px;
         margin-right: -12px;

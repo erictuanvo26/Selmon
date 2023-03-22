@@ -1,6 +1,5 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
-    height: 7659px;
 }
 
 * {
@@ -9,11 +8,11 @@ html {
     box-sizing: border-box;
     font-style: normal !important;
     white-space: nowrap !important;
+    -webkit-box-sizing: border-box;
 }
 
 body {
     overflow-x: hidden;
-    max-width: 1440px;
 }
 /* Common Part */
 
@@ -372,11 +371,14 @@ input[type="checkbox"] {
     position: fixed;
     top: 0;
     z-index: 119;
+    margin: 0 auto;
+    justify-content: center;
+
 
 }
 
 .navbar-wrapper {
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0 0px;
 }
 
@@ -570,10 +572,23 @@ nav {
 
 
 /* Content Begin */
-#home-page{
-    max-height: 3000px;
+
+
+#home-page {
+    position: relative;
+    max-height: auto;
     width: auto;
-    margin-top: 70px;
+}
+
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage-wrapper {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Slider Begin */
@@ -1487,3 +1502,9 @@ nav {
     width: 72px;
     height: 100px;
 }
+
+
+
+
+
+/* Responsive */
